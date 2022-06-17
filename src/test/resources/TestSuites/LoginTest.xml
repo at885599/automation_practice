@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="LoginTest" >
+	<parameter name="mail" value="at3111998@gmail.com"></parameter>
+	<parameter name="password" value="@linkinP1998"></parameter>
+    <classes>
+       <class name="com\facebook\LoginTest.java" />
+    </classes>
+  </test>
+ 
+</suite>
